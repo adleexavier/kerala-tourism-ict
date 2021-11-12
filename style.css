@@ -1,0 +1,67 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/couple-2447450.jpg);
+    font-family: 'Arial'; 
+    background-position: center;
+    background-size:3600px; 
+    
+}  
+.login{  
+        width: 462px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: rgba(4,9,30,0.3);  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color:yellow;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(157, 157, 170);  
+  
+  
+}  
+span{  
+      
+    font-size: 17px;  
+}  
+
+.images {
+    height325px;
+    width:300px;
+    position:relative;
+  
+    left:3px; 
+}
+

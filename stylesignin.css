@@ -1,0 +1,69 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/river-gaa9e2bc7b_1920.jpg);
+    font-family: 'Arial';  
+    background-size:cover;
+    background-position: center;
+}  
+.login{  
+        width: 459px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: rgba(4,9,30,0.5); 
+        border-radius: 15px ;  
+        position:relative;
+        top:50px;
+          
+}  
+h2{  
+    text-align: center;  
+    color: #d7ff23;  
+    padding: 20px;  
+    position:relative;
+    top:50px;
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 70px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 10px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+.logo img{
+    height:325px;
+    width:300px;
+    position:relative;
+    bottom:740px;
+    left:3px;
+    
+}

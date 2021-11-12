@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+    margin:0;
+    padding:0;
+}
+.header {
+    /* min-height:100vh; */
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.5)),url(images/couple-2447450.jpg);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+
+}
+nav {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 6em;
+  
+    
+}
+.nav-links ul li{
+    display: inline-block;
+    flex: 1;
+  
+    align-items: center;
+    position:relative;
+    right :90px;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:33px;
+   
+}
+.nav-links ul li ::after{
+    content: "" ;
+    width: 0%;
+    height : 3.5px;
+    background:#f44336;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+
+}
+
+
+.nav-links ul li :hover::after{
+    width :100%;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* .navbar {
+    overflow: hidden;
+    background-color: #333;
+  } */
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(24, 3, 3);
+    padding: 14px 16px;
+
+
+
+    position: relative;
+
+
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfafa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+</style>
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="images/colorful-kathakali-face-illustration-33544924-removebg-preview.png" style="height: 320px;">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+
+                    <li><a href="">LOGIN</a></li>
+                    <li><a href="">SIGNUP</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </section>
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <!-- <i class="fa fa-caret-down"></i> -->
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
+
+
+
+</body>
+</html>
